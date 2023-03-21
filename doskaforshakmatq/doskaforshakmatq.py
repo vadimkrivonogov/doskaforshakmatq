@@ -4,10 +4,8 @@ raam = Tk()
 raam.title("Tahvel")
 tahvel = Canvas(raam, width=400, height=400, background="white")
 
-# Define the size of each square
 square_size = 50
 
-# Create the squares
 for row in range(8):
     for col in range(8):
         x1 = col * square_size
