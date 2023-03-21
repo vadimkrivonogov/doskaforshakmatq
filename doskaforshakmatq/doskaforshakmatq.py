@@ -13,9 +13,9 @@ for row in range(8):
         x2 = x1 + square_size
         y2 = y1 + square_size
         if (row+col) % 2 == 0:
-            color = "white"
-        else:
             color = "black"
+        else:
+            color = "white"
         tahvel.create_rectangle(x1, y1, x2, y2, fill=color)
 
 tahvel.grid()
